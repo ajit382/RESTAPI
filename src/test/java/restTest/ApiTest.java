@@ -20,7 +20,7 @@ public void setup()
    test=new BaseTest();
    String mainurl = prop.getProperty("url");
    String serverurl = prop.getProperty("Serviceurl");
-   
+   String S;
     urll=mainurl+ serverurl;
 }
 @Test
